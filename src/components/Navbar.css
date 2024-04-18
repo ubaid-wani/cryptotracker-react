@@ -1,0 +1,24 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    font-size: 2rem;
+    color: var(--header-color);
+}
+
+.purple {
+    color: var(--header-color);
+}
+
+@media screen and (max-width: 720px) {
+   .icon{
+       font-size: 1.5rem;
+   }
+   .myheader{
+    font-size: 1.3rem;
+   }
+
+    }
